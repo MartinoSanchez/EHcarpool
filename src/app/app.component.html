@@ -1,1 +1,5 @@
 <app-header></app-header>
+
+<div class="container">
+  <app-rider *ngFor="let i of [0,1,2,3]" [picture]="riderAvatar[i]"></app-rider>
+</div>
