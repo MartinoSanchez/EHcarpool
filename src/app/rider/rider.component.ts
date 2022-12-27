@@ -7,6 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class RiderComponent {
   @Input() picture:string = '';
-  @Input() name:string = 'Martin';
-  @Input() lastname:string = 'Willmann';
+  @Input() name:string = '';
 }

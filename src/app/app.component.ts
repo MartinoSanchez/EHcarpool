@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  riderAvatar = [
+  rider_avatar = [
     "assets/riders/MW.jpg",
     "assets/riders/Default.jpg",
     "assets/riders/Default.jpg",
@@ -15,19 +15,10 @@ export class AppComponent {
     "assets/riders/Default.jpg"
   ];
 
-  lastname = [
-    "Willmann",
-    "Bachmann",
-    "Büttner",
-    "Senftle"
-  ]
-
-  name = [
+  rider_name = [
     "Martin",
     "Viktor",
     "Karl",
     "Louis"
   ]
-
-  title = 'EHcarpool';
 }
