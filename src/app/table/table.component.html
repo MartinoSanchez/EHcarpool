@@ -1,0 +1,35 @@
+<h1>Overview of the recent rides</h1>
+
+<table class="table">
+    <!--
+    <tr>
+    -->
+        <tr *ngFor="let column of columns">
+            <th>
+              {{column.name}}
+            </th>
+        </tr>
+        <!--
+       <th>
+            <div class="rider">
+                <img src={{picture}}>
+                <b>{{name}}</b>
+            </div>
+            <div class="rider">
+                <img src={{picture}}>
+                <b>{{name}}</b>
+            </div>
+        </th>
+     </tr>
+     -->
+     <tr *ngFor="let row of rows">
+       <td *ngIf="row.id !== editRowId">
+         {{row.name}}
+       </td>
+       <td>
+         <button #row.id (click)="addRow()">Edit</button>
+       </td>
+     </tr>
+   </table>
+
+   <button (click)="addRow()">Add ride</button>
