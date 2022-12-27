@@ -22,4 +22,8 @@ export class AppComponent {
     "Karl",
     "Louis"
   ]
+
+  addRider() {
+    
+  }
 }

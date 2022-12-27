@@ -4,9 +4,14 @@
   <div class="riders">
     <h2>Current rider</h2>
     <app-rider *ngFor="let i of [0,1,2,3]" [picture]="rider_avatar[i]" [name]="rider_name[i]"></app-rider>
+    <div class="example-button-container">
+      <button mat-fab color="accent" aria-label="Example icon button with a delete icon">
+        <mat-icon>add</mat-icon>
+      </button>
+    </div>
   </div>
   <div class="table">
     <h2>Overview of the recent rides</h2>
     <app-table *ngFor="let i of [0]" [picture]="rider_avatar[i]" [name]="rider_name[i]"></app-table>
   </div>
-</div>
+</div> 
