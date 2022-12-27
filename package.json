@@ -1,6 +1,7 @@
 {
   "name": "ehcarpool",
   "version": "0.0.0",
+  "homepage": "https://martinosanchez.github.io/EHcarpool/EHcarpool/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
